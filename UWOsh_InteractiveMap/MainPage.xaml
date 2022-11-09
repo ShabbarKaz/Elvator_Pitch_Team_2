@@ -4,38 +4,55 @@
              x:Class="UWOsh_InteractiveMap.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+        <Grid>
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+             <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="3*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+
+
+            <SearchBar 
+             x:Name="SearchBar"
+             Placeholder="Search items"
+             TextChanged="OnTextChanged"
+              Grid.Row="0"
+            Grid.ColumnSpan="2"
+              
+             HorizontalOptions="StartAndExpand"   
+              HorizontalTextAlignment ="Start"
+                    />
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+             x:Name="Filters"
+             Text="Filters"
+             Clicked="FilterClicked"
+             Grid.Row="0"
+             Grid.Column="1"
+             HorizontalOptions="End"
+             VerticalOptions="Start"
+                    />
 
-        </VerticalStackLayout>
+            <Image
+                Source="uwo_placeholder.jpg"
+                SemanticProperties.Description="place holder map of UWO"
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+
+
+        </Grid>
+        
+  
     </ScrollView>
 
 </ContentPage>

@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T19:49:01.889</Modified>
+      <Modified>2022-11-09T20:01:29.151</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-08T19:49:01.434</Modified>
+      <Modified>2022-11-09T20:01:28.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\UWOsh_InteractiveMap.runtimeconfig.json">
       <PackagePath>UWOsh_InteractiveMap.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-08T19:41:29.557</Modified>
+      <Modified>2022-11-09T19:17:59.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\UWOsh_InteractiveMap.dll">
       <PackagePath>UWOsh_InteractiveMap.dll</PackagePath>
-      <Modified>2022-11-08T19:48:59.957</Modified>
+      <Modified>2022-11-09T20:01:27.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UWOsh_InteractiveMap.exe</PackagePath>
-      <Modified>2022-11-08T19:48:59.973</Modified>
+      <Modified>2022-11-09T20:01:27.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1064,7 +1064,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\UWOsh_InteractiveMap.deps.json">
       <PackagePath>UWOsh_InteractiveMap.deps.json</PackagePath>
-      <Modified>2022-11-08T19:49:01.702</Modified>
+      <Modified>2022-11-09T20:01:28.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1080,179 +1080,183 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2022-11-08T19:35:36.386</Modified>
+      <Modified>2022-11-09T17:37:29.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:26.844</Modified>
+      <Modified>2022-11-09T19:17:57.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:26.868</Modified>
+      <Modified>2022-11-09T19:17:57.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:26.900</Modified>
+      <Modified>2022-11-09T19:17:57.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:26.940</Modified>
+      <Modified>2022-11-09T19:17:57.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.084</Modified>
+      <Modified>2022-11-09T19:17:57.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2022-11-08T19:35:36.378</Modified>
+      <Modified>2022-11-09T17:37:29.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2022-11-08T19:35:36.386</Modified>
+      <Modified>2022-11-09T17:37:29.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-11-08T19:41:27.140</Modified>
+      <Modified>2022-11-09T19:51:22.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.484</Modified>
+      <Modified>2022-11-09T19:51:23.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.500</Modified>
+      <Modified>2022-11-09T19:51:23.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.508</Modified>
+      <Modified>2022-11-09T19:51:23.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.532</Modified>
+      <Modified>2022-11-09T19:51:23.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.588</Modified>
+      <Modified>2022-11-09T19:51:23.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.164</Modified>
+      <Modified>2022-11-09T19:51:22.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.164</Modified>
+      <Modified>2022-11-09T19:51:22.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.172</Modified>
+      <Modified>2022-11-09T19:51:22.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.188</Modified>
+      <Modified>2022-11-09T19:51:22.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.188</Modified>
+      <Modified>2022-11-09T19:51:22.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.276</Modified>
+      <Modified>2022-11-09T19:51:23.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.292</Modified>
+      <Modified>2022-11-09T19:51:23.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.300</Modified>
+      <Modified>2022-11-09T19:51:23.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.316</Modified>
+      <Modified>2022-11-09T19:51:23.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.340</Modified>
+      <Modified>2022-11-09T19:51:23.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.220</Modified>
+      <Modified>2022-11-09T19:51:22.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.228</Modified>
+      <Modified>2022-11-09T19:51:22.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.236</Modified>
+      <Modified>2022-11-09T19:51:22.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.252</Modified>
+      <Modified>2022-11-09T19:51:22.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.268</Modified>
+      <Modified>2022-11-09T19:51:23.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.196</Modified>
+      <Modified>2022-11-09T19:51:22.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.196</Modified>
+      <Modified>2022-11-09T19:51:22.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.204</Modified>
+      <Modified>2022-11-09T19:51:22.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.212</Modified>
+      <Modified>2022-11-09T19:51:22.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.212</Modified>
+      <Modified>2022-11-09T19:51:22.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.348</Modified>
+      <Modified>2022-11-09T19:51:23.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.372</Modified>
+      <Modified>2022-11-09T19:51:23.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.380</Modified>
+      <Modified>2022-11-09T19:51:23.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.412</Modified>
+      <Modified>2022-11-09T19:51:23.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.476</Modified>
+      <Modified>2022-11-09T19:51:23.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.212</Modified>
+      <Modified>2022-11-09T19:51:22.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.228</Modified>
+      <Modified>2022-11-09T19:51:22.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.244</Modified>
+      <Modified>2022-11-09T19:51:22.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.268</Modified>
+      <Modified>2022-11-09T19:51:22.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-11-08T19:41:27.332</Modified>
+      <Modified>2022-11-09T19:51:23.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\shabb\Desktop\Elvator_Pitch_Team_2\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uwo_placeholder.scale-100.jpg">
+      <PackagePath>uwo_placeholder.scale-100.jpg</PackagePath>
+      <Modified>2022-11-09T19:49:10.232</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
