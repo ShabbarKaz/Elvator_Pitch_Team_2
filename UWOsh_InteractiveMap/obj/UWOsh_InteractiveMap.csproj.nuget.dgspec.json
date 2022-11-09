@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shabb\\Desktop\\Elvator_Pitch_Team_2\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj": {}
+    "F:\\Github\\Team\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shabb\\Desktop\\Elvator_Pitch_Team_2\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj": {
+    "F:\\Github\\Team\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shabb\\Desktop\\Elvator_Pitch_Team_2\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj",
+        "projectUniqueName": "F:\\Github\\Team\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj",
         "projectName": "UWOsh_InteractiveMap",
-        "projectPath": "C:\\Users\\shabb\\Desktop\\Elvator_Pitch_Team_2\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj",
-        "packagesPath": "C:\\Users\\shabb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shabb\\Desktop\\Elvator_Pitch_Team_2\\UWOsh_InteractiveMap\\obj\\",
+        "projectPath": "F:\\Github\\Team\\UWOsh_InteractiveMap\\UWOsh_InteractiveMap.csproj",
+        "packagesPath": "C:\\Users\\vanin\\.nuget\\packages\\",
+        "outputPath": "F:\\Github\\Team\\UWOsh_InteractiveMap\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shabb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vanin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,7 +38,7 @@
             "targetAlias": "net6.0-android",
             "projectReferences": {}
           },
-          "net6.0-ios15.4": {
+          "net6.0-ios16.0": {
             "targetAlias": "net6.0-ios",
             "projectReferences": {}
           },
@@ -63,13 +63,25 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             }
           },
           "imports": [
@@ -102,18 +114,30 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         },
-        "net6.0-ios15.4": {
+        "net6.0-ios16.0": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -156,13 +180,25 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -206,12 +242,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.486, )",
+              "version": "[6.0.541, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -219,6 +255,18 @@
               "target": "Package",
               "version": "[10.0.22000.194, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             }
           },
           "imports": [

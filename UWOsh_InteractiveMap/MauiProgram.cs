@@ -1,4 +1,5 @@
-﻿namespace UWOsh_InteractiveMap
+﻿using Syncfusion.Maui.Core.Hosting;
+namespace UWOsh_InteractiveMap
 {
     public static class MauiProgram
     {
