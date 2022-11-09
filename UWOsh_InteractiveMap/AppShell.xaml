@@ -34,6 +34,11 @@
         ContentTemplate="{DataTemplate local:UniversityMap}"
         Route="UniversityMap" />
 
+    <ShellContent
+        Title="Compass"
+        ContentTemplate="{DataTemplate local:Compass}"
+        Route="Compass" />
+
 
 
 

@@ -9,13 +9,16 @@
     ".NETCoreApp,Version=v6.0/win10-x64": {
       "UWOsh_InteractiveMap/1.0": {
         "dependencies": {
-          "Microsoft.Maui.Dependencies": "6.0.486",
-          "Microsoft.Maui.Extensions": "6.0.486",
+          "Microsoft.Maui.Dependencies": "6.0.541",
+          "Microsoft.Maui.Extensions": "6.0.541",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
+          "Syncfusion.Licensing": "20.3.0.56",
+          "Syncfusion.Maui.Core": "20.3.56",
+          "Syncfusion.Maui.Gauges": "20.3.56",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.10",
-          "runtimepack.Microsoft.Maui.Core.Runtime.win": "6.0.486",
-          "runtimepack.Microsoft.Maui.Controls.Runtime.win": "6.0.486",
-          "runtimepack.Microsoft.Maui.Essentials.Runtime.win": "6.0.486",
+          "runtimepack.Microsoft.Maui.Core.Runtime.win": "6.0.541",
+          "runtimepack.Microsoft.Maui.Controls.Runtime.win": "6.0.541",
+          "runtimepack.Microsoft.Maui.Essentials.Runtime.win": "6.0.541",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.27"
         },
         "runtime": {
@@ -859,35 +862,35 @@
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Core.Runtime.win/6.0.486": {
+      "runtimepack.Microsoft.Maui.Core.Runtime.win/6.0.541": {
         "runtime": {
           "Microsoft.Maui.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.409.77"
+            "fileVersion": "6.0.541.0"
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Controls.Runtime.win/6.0.486": {
+      "runtimepack.Microsoft.Maui.Controls.Runtime.win/6.0.541": {
         "runtime": {
           "Microsoft.Maui.Controls.Compatibility.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.409.77"
+            "fileVersion": "6.0.541.0"
           },
           "Microsoft.Maui.Controls.Xaml.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.409.77"
+            "fileVersion": "6.0.541.0"
           },
           "Microsoft.Maui.Controls.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.409.77"
+            "fileVersion": "6.0.541.0"
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Essentials.Runtime.win/6.0.486": {
+      "runtimepack.Microsoft.Maui.Essentials.Runtime.win/6.0.541": {
         "runtime": {
           "Microsoft.Maui.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.409.77"
+            "fileVersion": "6.0.541.0"
           }
         }
       },
@@ -1008,15 +1011,15 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.486": {
+      "Microsoft.Maui.Dependencies/6.0.541": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
-          "Microsoft.Maui.Graphics": "6.0.403",
-          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.501",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
           "Microsoft.WindowsAppSDK": "1.1.3"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.486": {
+      "Microsoft.Maui.Extensions/6.0.541": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
@@ -1024,24 +1027,24 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.501": {
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.400.3"
+            "fileVersion": "6.0.500.1"
           }
         }
       },
-      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/6.0.403": {
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/6.0.501": {
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.WindowsAppSDK": "1.1.3"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.400.3"
+            "fileVersion": "6.0.500.1"
           }
         }
       },
@@ -1102,6 +1105,38 @@
           }
         }
       },
+      "Syncfusion.Licensing/20.3.0.56": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.3.0.56",
+            "fileVersion": "20.3.0.56"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/20.3.56": {
+        "dependencies": {
+          "Microsoft.Maui.Dependencies": "6.0.541",
+          "Syncfusion.Licensing": "20.3.0.56"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "20.3600.0.56",
+            "fileVersion": "20.3600.0.56"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/20.3.56": {
+        "dependencies": {
+          "Microsoft.Maui.Dependencies": "6.0.541",
+          "Syncfusion.Maui.Core": "20.3.56"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "assemblyVersion": "20.3600.0.56",
+            "fileVersion": "20.3600.0.56"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1121,17 +1156,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Core.Runtime.win/6.0.486": {
+    "runtimepack.Microsoft.Maui.Core.Runtime.win/6.0.541": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Controls.Runtime.win/6.0.486": {
+    "runtimepack.Microsoft.Maui.Controls.Runtime.win/6.0.541": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Essentials.Runtime.win/6.0.486": {
+    "runtimepack.Microsoft.Maui.Essentials.Runtime.win/6.0.541": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -1204,33 +1239,33 @@
       "path": "microsoft.graphics.win2d/1.0.3.1",
       "hashPath": "microsoft.graphics.win2d.1.0.3.1.nupkg.sha512"
     },
-    "Microsoft.Maui.Dependencies/6.0.486": {
+    "Microsoft.Maui.Dependencies/6.0.541": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q5EMWvTlSUDJ1i5r9WN33VtZySCARCHFiNECcfZAcdDBGYLEtFXUZvf0jkHoqQXD5zAk1A7Lqr3Oxu+cXq+ySw==",
-      "path": "microsoft.maui.dependencies/6.0.486",
-      "hashPath": "microsoft.maui.dependencies.6.0.486.nupkg.sha512"
+      "sha512": "sha512-9QJGkpTcPhZHrDmWfxoSUJjjCRLt0IpLz0NSKUqpWTj4D8UbOqrOKIOCO3duyc5xQ2J4mTgzA7H7zdzWZfrdBg==",
+      "path": "microsoft.maui.dependencies/6.0.541",
+      "hashPath": "microsoft.maui.dependencies.6.0.541.nupkg.sha512"
     },
-    "Microsoft.Maui.Extensions/6.0.486": {
+    "Microsoft.Maui.Extensions/6.0.541": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8EQXAfavgMphismIN2LRWeHpZFN7RMZiWEZG1Z+ylfSpkp1XlYvd1CEagkcbe/IyXVtGgkkEfaPVwj8xJS1D6g==",
-      "path": "microsoft.maui.extensions/6.0.486",
-      "hashPath": "microsoft.maui.extensions.6.0.486.nupkg.sha512"
+      "sha512": "sha512-Hpj5ao4T92gb2nEfpqsSOoJmsyP0i+29gpF+mZEa8QjAiwfvN5C1ZckYJY9k8Ir5nqYIjMvHgkwUh6CuR6Ui/w==",
+      "path": "microsoft.maui.extensions/6.0.541",
+      "hashPath": "microsoft.maui.extensions.6.0.541.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics/6.0.403": {
+    "Microsoft.Maui.Graphics/6.0.501": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U3geHZANTsD8biN1cYOe9E1dU+UuV5mo0hURmLHCXRCTHddZSL0IJYnIF02dLCdCp2mXRGY4elGi789fgRaAlg==",
-      "path": "microsoft.maui.graphics/6.0.403",
-      "hashPath": "microsoft.maui.graphics.6.0.403.nupkg.sha512"
+      "sha512": "sha512-TGe/dWKG/Jz7qAEYQeSGuutYywlDFz2dJQJFktpvXVWfvkLweTc9gPB4j1pXir4fwuGLdkPU0tBuKi2DElIZ1Q==",
+      "path": "microsoft.maui.graphics/6.0.501",
+      "hashPath": "microsoft.maui.graphics.6.0.501.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/6.0.403": {
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/6.0.501": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6LfKdG+658GzupeXWdbpeZkv/V5bda2gLIiF+2D8PQEhUAS3OxWlDJsAjP+1KdHvu0BN7e9f+awAxhOEcuO/oQ==",
-      "path": "microsoft.maui.graphics.win2d.winui.desktop/6.0.403",
-      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.6.0.403.nupkg.sha512"
+      "sha512": "sha512-9nIgbDKaBuy8WVPVaiYamyl8qBCYQc/0Y52Ejj2QBq5thPQq5opZXy6sSq88j0BTmin3mPVuU0Ww4wC5p/1QJA==",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/6.0.501",
+      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512"
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22000.194": {
       "type": "package",
@@ -1245,6 +1280,27 @@
       "sha512": "sha512-PMJ9oPsUnl5FVaIdDwFscmu2t/NEJcdcuDIIbRuK8+5ZZijtCdfdatKayn2O9SL0ziFysUCoHdMJ+PFbybyxzg==",
       "path": "microsoft.windowsappsdk/1.1.3",
       "hashPath": "microsoft.windowsappsdk.1.1.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.3.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tSym/jpNruSOuvDjheCP8dFjBSjKkfcBSvOU6NgTIHma2r597WrJGK94KXxKPX10YVMtirhlw8WO2DOF+G4Z/A==",
+      "path": "syncfusion.licensing/20.3.0.56",
+      "hashPath": "syncfusion.licensing.20.3.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/20.3.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rRlapxj5l9aCtGmhQ+Nd6eOc2e9JV0p/6RzHwkitrQFo8pu++7DfKcyABdUUpdKMYUwU0ylSO3YC/hPUawWyCQ==",
+      "path": "syncfusion.maui.core/20.3.56",
+      "hashPath": "syncfusion.maui.core.20.3.56.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Gauges/20.3.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xaol+bX/hzuwlDYSLyCKvr0ljy3i5TS72Hm2YiLEDTTU1tXWXKJMkY8VhobvBT25zRuimGMHpdZK5Yx+U9KhiQ==",
+      "path": "syncfusion.maui.gauges/20.3.56",
+      "hashPath": "syncfusion.maui.gauges.20.3.56.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",
