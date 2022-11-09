@@ -3,10 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UWOsh_InteractiveMap.NavBar"
              Title="NavBar">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout
+        HorizontalOptions="FillAndExpand">
+        <SearchBar Placeholder="Search items..." 
+                   TextChanged="OnTextChanged" 
+                   x:Name="SearchBar"
+                />
+
+        <Button x:Name="ListPlants"
+                Text="List All Plants"
+                Clicked="GoToListPlants" 
+                Padding="30"
+                BorderWidth="10"
+                />
+
+        <Button x:Name="Compass"
+                Text="Use Compass"
+                Clicked="GetCompass"
+                Padding="30"
+                BorderWidth="10"/>
+
+        <Button x:Name="FeedBack"
+                Text="Give Us Feedback"
+                Clicked="GiveFeedback"
+                Padding="30"
+                BorderWidth="10"/>
     </VerticalStackLayout>
 </ContentPage>
