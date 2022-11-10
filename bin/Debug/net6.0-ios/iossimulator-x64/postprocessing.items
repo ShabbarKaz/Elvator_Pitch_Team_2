@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="UWOsh_InteractiveMap.app/UWOsh_InteractiveMap">
+      <BCSymbolMapName>UWOsh_InteractiveMap.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>UWOsh_InteractiveMap.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/Debug/net6.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>UWOsh_InteractiveMap.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
