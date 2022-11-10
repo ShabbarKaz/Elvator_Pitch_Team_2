@@ -30,25 +30,25 @@
     <AppXManifest Include="F:\Github\Team\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-09T23:45:27.793</Modified>
+      <Modified>2022-11-10T00:28:34.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-09T23:42:14.312</Modified>
+      <Modified>2022-11-10T00:28:33.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\UWOsh_InteractiveMap.runtimeconfig.json">
       <PackagePath>UWOsh_InteractiveMap.runtimeconfig.json</PackagePath>
-      <Modified>2022-11-09T23:27:36.733</Modified>
+      <Modified>2022-11-10T00:13:05.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\UWOsh_InteractiveMap.dll">
       <PackagePath>UWOsh_InteractiveMap.dll</PackagePath>
-      <Modified>2022-11-09T23:42:09.395</Modified>
+      <Modified>2022-11-10T00:28:31.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>UWOsh_InteractiveMap.exe</PackagePath>
-      <Modified>2022-11-09T23:42:09.439</Modified>
+      <Modified>2022-11-10T00:28:31.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vanin\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1076,7 +1076,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\UWOsh_InteractiveMap.deps.json">
       <PackagePath>UWOsh_InteractiveMap.deps.json</PackagePath>
-      <Modified>2022-11-09T23:45:27.297</Modified>
+      <Modified>2022-11-10T00:28:34.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1096,23 +1096,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.248</Modified>
+      <Modified>2022-11-10T00:13:01.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.294</Modified>
+      <Modified>2022-11-10T00:13:01.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.357</Modified>
+      <Modified>2022-11-10T00:13:01.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.435</Modified>
+      <Modified>2022-11-10T00:13:01.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.738</Modified>
+      <Modified>2022-11-10T00:13:01.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1124,147 +1124,147 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-11-09T23:15:25.875</Modified>
+      <Modified>2022-11-10T00:13:01.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.334</Modified>
+      <Modified>2022-11-10T00:13:02.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.364</Modified>
+      <Modified>2022-11-10T00:13:02.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.389</Modified>
+      <Modified>2022-11-10T00:13:02.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.438</Modified>
+      <Modified>2022-11-10T00:13:02.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.703</Modified>
+      <Modified>2022-11-10T00:13:02.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.913</Modified>
+      <Modified>2022-11-10T00:13:01.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.920</Modified>
+      <Modified>2022-11-10T00:13:01.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.930</Modified>
+      <Modified>2022-11-10T00:13:01.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.936</Modified>
+      <Modified>2022-11-10T00:13:01.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.946</Modified>
+      <Modified>2022-11-10T00:13:01.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.068</Modified>
+      <Modified>2022-11-10T00:13:01.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.078</Modified>
+      <Modified>2022-11-10T00:13:01.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.089</Modified>
+      <Modified>2022-11-10T00:13:01.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.114</Modified>
+      <Modified>2022-11-10T00:13:01.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.154</Modified>
+      <Modified>2022-11-10T00:13:01.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.995</Modified>
+      <Modified>2022-11-10T00:13:01.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.004</Modified>
+      <Modified>2022-11-10T00:13:01.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.020</Modified>
+      <Modified>2022-11-10T00:13:01.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.036</Modified>
+      <Modified>2022-11-10T00:13:01.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.055</Modified>
+      <Modified>2022-11-10T00:13:01.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.952</Modified>
+      <Modified>2022-11-10T00:13:01.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.957</Modified>
+      <Modified>2022-11-10T00:13:01.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.966</Modified>
+      <Modified>2022-11-10T00:13:01.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.973</Modified>
+      <Modified>2022-11-10T00:13:01.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.984</Modified>
+      <Modified>2022-11-10T00:13:01.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.168</Modified>
+      <Modified>2022-11-10T00:13:01.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.185</Modified>
+      <Modified>2022-11-10T00:13:01.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.202</Modified>
+      <Modified>2022-11-10T00:13:02.014</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.230</Modified>
+      <Modified>2022-11-10T00:13:02.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.312</Modified>
+      <Modified>2022-11-10T00:13:02.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.962</Modified>
+      <Modified>2022-11-10T00:13:01.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-11-09T23:15:25.980</Modified>
+      <Modified>2022-11-10T00:13:01.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.009</Modified>
+      <Modified>2022-11-10T00:13:01.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.050</Modified>
+      <Modified>2022-11-10T00:13:01.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-11-09T23:15:26.155</Modified>
+      <Modified>2022-11-10T00:13:02.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Github\Team\UWOsh_InteractiveMap\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\uwo_placeholder.scale-100.jpg">
       <PackagePath>uwo_placeholder.scale-100.jpg</PackagePath>
