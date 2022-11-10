@@ -438,30 +438,6 @@
     {
       "code": "NU1301",
       "level": "Error",
-      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
-      "libraryId": "Syncfusion.Maui.Gauges"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
-      "libraryId": "Syncfusion.Maui.Gauges"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
-      "libraryId": "Syncfusion.Maui.Gauges"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
-      "libraryId": "Syncfusion.Maui.Gauges"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
       "message": "Failed to retrieve information about 'Syncfusion.Maui.Core' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Core'&semVerLevel=2.0.0'.",
       "libraryId": "Syncfusion.Maui.Core"
     },
@@ -482,6 +458,30 @@
       "level": "Error",
       "message": "Failed to retrieve information about 'Syncfusion.Maui.Core' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Core'&semVerLevel=2.0.0'.",
       "libraryId": "Syncfusion.Maui.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
+      "libraryId": "Syncfusion.Maui.Gauges"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
+      "libraryId": "Syncfusion.Maui.Gauges"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
+      "libraryId": "Syncfusion.Maui.Gauges"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Syncfusion.Maui.Gauges' from remote source 'https://nuget.org/FindPackagesById()?id='Syncfusion.Maui.Gauges'&semVerLevel=2.0.0'.",
+      "libraryId": "Syncfusion.Maui.Gauges"
     }
   ]
 }
