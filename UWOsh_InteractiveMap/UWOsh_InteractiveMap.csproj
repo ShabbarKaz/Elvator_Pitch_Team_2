@@ -58,6 +58,9 @@
 	  <MauiXaml Update="Compass.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="DetailPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ListAllPlants.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
