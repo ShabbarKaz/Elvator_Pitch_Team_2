@@ -24,7 +24,7 @@
         <!-- Will display images horizontally, may need to mess with padding/margins-->
         <HorizontalStackLayout>
             <Image 
-                Source="Resources/Images/Polystichum_munitum_(Jami_Dwyer)_001.jpg"
+                Source="Resources/Images/Polystichum_munitum_Jami_Dwyer.jpg"
                 MaximumHeightRequest="400"
                 Margin="10"/>
         </HorizontalStackLayout>
