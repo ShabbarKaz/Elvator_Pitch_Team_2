@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6+XP2fFqv/etMxn1C2KW1jJhtCRFqc7+mxj74xj2bkOThS4DXXg7qrEbZh8NJCl55Kp6n0XQ/ejFNaPA5ijvNQ==",
+  "dgSpecHash": "IRw/hXfV9b+XZLkVryOaPVakL77LbVQu6ZDRG0q5rpQw3GTGwQRVDE12hJzUQTSGulrd7o8qsxcaxjnGpw25dA==",
   "success": true,
-  "projectFilePath": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap/UWOsh_InteractiveMap.csproj",
+  "projectFilePath": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main2/UWOsh_InteractiveMap/UWOsh_InteractiveMap.csproj",
   "expectedPackageFiles": [
     "/Users/Rudy/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",
     "/Users/Rudy/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",

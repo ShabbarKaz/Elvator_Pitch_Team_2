@@ -9,7 +9,7 @@
       <dSYMInfoPlistRelativePath>UWOsh_InteractiveMap.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
       <SymbolFile>obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>UWOsh_InteractiveMap.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap</SourceProjectPath>
+      <SourceProjectPath>/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main2/UWOsh_InteractiveMap</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

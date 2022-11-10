@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap</SourceProjectPath>
+      <SourceProjectPath>/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main2/UWOsh_InteractiveMap</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

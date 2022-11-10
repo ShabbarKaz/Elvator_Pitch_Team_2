@@ -1,33 +1,35 @@
 ﻿<Properties StartupConfiguration="{2D43CA66-B3EF-4ECA-8C1A-3D7D4A11AD4B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SearchHistory.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppShell.xaml">
     <Files>
       <File FileName="MainPage.xaml" Line="32" Column="14" />
       <File FileName="MainPage.xaml.cs" Line="22" Column="10" />
       <File FileName="Resources/Images/dotnet_bot.svg" />
-      <File FileName="SearchHistory.xaml" Line="20" Column="17" />
+      <File FileName="SearchHistory.xaml" Line="4" Column="57" />
       <File FileName="SearchHistory.xaml.cs" Line="12" Column="9" />
-      <File FileName="AppShell.xaml" Line="15" Column="23" />
+      <File FileName="AppShell.xaml" Line="19" Column="1" />
       <File FileName="Resources/Splash/splash.svg" Line="1" Column="1" />
+      <File FileName="App.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UWOsh_InteractiveMap" expanded="True">
+          <Node name="UWOsh_InteractiveMap" expanded="True" selected="True">
+            <Node name="Solution Items" expanded="True" />
             <Node name="UWOsh_InteractiveMap" expanded="True">
               <Node name="MainPage.xaml" expanded="True" />
-              <Node name="SearchHistory.xaml" expanded="True" selected="True" />
+              <Node name="SearchHistory.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.UWOsh__InteractiveMap PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

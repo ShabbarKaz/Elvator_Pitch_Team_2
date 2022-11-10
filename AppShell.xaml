@@ -15,4 +15,9 @@
         Title="Search History"
         ContentTemplate="{DataTemplate local:SearchHistory}"
         Route="SearchHistory" />
+
+    <ShellContent
+        Title="List All Plants"
+        ContentTemplate="{DataTemplate local:ListAllPlants}"
+        Route="ListAllPlants" />
 </Shell>

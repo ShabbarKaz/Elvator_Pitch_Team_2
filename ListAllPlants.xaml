@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UWOsh_InteractiveMap.ListAllPlants"
+             Title="List All Plants">
+
+    <VerticalStackLayout BackgroundColor="White">
+        <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.25*" />
+            </Grid.ColumnDefinitions>
+
+            <SearchBar Grid.Column="0"
+               Placeholder="Plant Name (Common and/or Scientific)"
+               BackgroundColor="White"
+               VerticalOptions="Start"
+               HorizontalOptions="Start"
+               TextColor="Black"/>
+
+            <Button Grid.Column="1"
+                x:Name="FilterBtn"
+                Text="Filter"
+                SemanticProperties.Hint="Opens pop-up filter menu"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BorderColor="Black"
+                BorderWidth="4"
+                FontSize="Medium"
+                Scale="1"/>
+
+            <Button Grid.Column="2"
+                x:Name="BackBtn"
+                Text="Back"
+                SemanticProperties.Hint="Sends you back to map page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                BorderColor="Black"
+                BorderWidth="4"
+                ImageSource="backbutton.png"
+                ContentLayout="Right, 20"
+                FontSize="Medium"
+                Scale="1"/>
+        </Grid>
+
+        <Label 
+            Text="List of All Plants On-Campus"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            TextColor="Black"
+            FontSize="Title"/>
+
+        <Button
+                x:Name="SearchBtn1"
+                Text="Common Name (Genus Species)"
+                SemanticProperties.Hint="Sends you to this item's detail page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                FontSize="Large"
+                />
+
+        <Button
+                x:Name="SearchBtn2"
+                Text="Common Name (Genus Species)"
+                SemanticProperties.Hint="Sends you to this item's detail page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                FontSize="Large"
+                />
+
+        <Button
+                x:Name="SearchBtn3"
+                Text="Common Name (Genus Species)"
+                SemanticProperties.Hint="Sends you to this item's detail page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                FontSize="Large"
+                />
+    </VerticalStackLayout>
+</ContentPage>

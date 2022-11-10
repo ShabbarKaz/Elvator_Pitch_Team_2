@@ -18859,11 +18859,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap/UWOsh_InteractiveMap.csproj",
+      "projectUniqueName": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main2/UWOsh_InteractiveMap/UWOsh_InteractiveMap.csproj",
       "projectName": "UWOsh_InteractiveMap",
-      "projectPath": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap/UWOsh_InteractiveMap.csproj",
+      "projectPath": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main2/UWOsh_InteractiveMap/UWOsh_InteractiveMap.csproj",
       "packagesPath": "/Users/Rudy/.nuget/packages/",
-      "outputPath": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main 2/UWOsh_InteractiveMap/obj/",
+      "outputPath": "/Users/Rudy/Downloads/Elvator_Pitch_Team_2-main2/UWOsh_InteractiveMap/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
