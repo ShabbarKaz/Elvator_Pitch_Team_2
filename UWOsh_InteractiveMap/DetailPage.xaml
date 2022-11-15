@@ -9,7 +9,7 @@
         <Label 
             Text="Sword Fern (Polystichum munitum)"
             VerticalOptions="Start" 
-            HorizontalOptions="Center"/>
+            HorizontalOptions="CenterAndExpand"/>
 
         <!-- Should act as <h2> check with team to see about formatting/fonts-->
         <Label
