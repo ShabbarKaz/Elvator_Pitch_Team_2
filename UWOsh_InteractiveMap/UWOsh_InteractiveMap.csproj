@@ -76,9 +76,6 @@
 	  <MauiXaml Update="NavBar.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Resources\Styles\SpecificStyles.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="SearchHistory.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
