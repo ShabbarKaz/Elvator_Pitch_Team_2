@@ -23,9 +23,6 @@
     <MauiXaml Update="NavBar.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Resources\Styles\SpecificStyles.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="SearchHistory.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
