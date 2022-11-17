@@ -26,8 +26,5 @@
     <MauiXaml Update="SearchHistory.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="UniversityMap.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
   </ItemGroup>
 </Project>

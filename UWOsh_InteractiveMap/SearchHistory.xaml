@@ -4,10 +4,61 @@
              x:Class="UWOsh_InteractiveMap.SearchHistory"
               Title="SearchHistory">
 
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*" />
+                <ColumnDefinition Width="0.25*" />
+            </Grid.ColumnDefinitions>
+
+            <SearchBar Grid.Column="0"
+               Placeholder="Plant Name (Common and/or Scientific)"
+               BackgroundColor="White"
+               VerticalOptions="Start"
+               HorizontalOptions="Start"
+               TextColor="Black"/>
+
+        </Grid>
+
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Search History"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Start"
+            TextColor="Black"
+            FontSize="Title"/>
+
+        <Button
+                x:Name="SearchBtn1"
+                Text="Common Name (Genus Species)"
+                SemanticProperties.Hint="Sends you to this item's detail page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                FontSize="Large"
+                />
+
+        <Button
+                x:Name="SearchBtn2"
+                Text="Common Name (Genus Species)"
+                SemanticProperties.Hint="Sends you to this item's detail page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                FontSize="Large"
+                />
+
+        <Button
+                x:Name="SearchBtn3"
+                Text="Common Name (Genus Species)"
+                SemanticProperties.Hint="Sends you to this item's detail page"
+                Clicked="OnButtonClicked"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                FontSize="Large"
+                />
     </VerticalStackLayout>
 </ContentPage>
