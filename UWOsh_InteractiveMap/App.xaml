@@ -1,8 +1,10 @@
 ﻿<?xml version = "1.0" encoding = "UTF-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:UWOsh_InteractiveMap"
+             xmlns:local="clr-namespace:UWOsh_InteractiveMap" 
              x:Class="UWOsh_InteractiveMap.App">
+    
+    
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -11,4 +13,38 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+
+    <Application.MainPage>
+        <Shell>
+            <TabBar x:Name="AppTabs">
+                
+                <Tab Title="MapTab" Icon="mapicon.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:Map}"/>
+                </Tab>
+                <Tab Title="CompassTab" Icon="compassicon.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:Compass}"/>
+                </Tab>
+
+                <Tab Title="ListAllPlantsTab" Icon="plantslist.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:ListAllPlants}"/>
+                </Tab>
+
+                <Tab Title="DetailPage" Icon="detailpage.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:DetailPage}"/>
+                </Tab>
+
+                <Tab Title="AddPlant" Icon="addplant.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:DetailPage}"/>
+                </Tab>
+
+                <Tab Title="Feedback" Icon="feedback.svg">
+                    <ShellContent ContentTemplate="{DataTemplate local:DetailPage}"/>
+                </Tab>
+
+            </TabBar>
+            
+        </Shell>
+    </Application.MainPage>
+    
+    
 </Application>

@@ -3,56 +3,5 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UWOsh_InteractiveMap.MainPage">
 
-    <ScrollView>
-
-
-        <Grid>
-
-             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="3*" />
-            </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-
-
-
-            <SearchBar 
-             x:Name="SearchBar"
-             Placeholder="Search items"
-             TextChanged="OnTextChanged"
-              Grid.Row="0"
-            Grid.ColumnSpan="2"
-              
-             HorizontalOptions="StartAndExpand"   
-              HorizontalTextAlignment ="Start"
-                    />
-
-            <Button
-             x:Name="Filters"
-             Text="Filters"
-             Clicked="FilterClicked"
-             Grid.Row="0"
-             Grid.Column="1"
-             HorizontalOptions="End"
-             VerticalOptions="Start"
-                    />
-
-            <Image
-                Source="uwo_placeholder.jpg"
-                SemanticProperties.Description="place holder map of UWO"
-                Grid.Row="1"
-                Grid.ColumnSpan="2"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"/>
-
-
-        </Grid>
-        
-  
-    </ScrollView>
-
+    
 </ContentPage>
