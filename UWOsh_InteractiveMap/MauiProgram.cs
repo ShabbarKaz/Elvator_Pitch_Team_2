@@ -1,4 +1,5 @@
-﻿namespace UWOsh_InteractiveMap
+﻿using Syncfusion.Maui.Core.Hosting;
+namespace UWOsh_InteractiveMap
 {
     public static class MauiProgram
     {
@@ -7,6 +8,7 @@
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .ConfigureSyncfusionCore()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

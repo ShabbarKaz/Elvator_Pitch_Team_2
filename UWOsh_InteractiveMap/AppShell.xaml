@@ -30,9 +30,14 @@
         Route="NavBar" />
 
     <ShellContent
-        Title="UniversityMap"
-        ContentTemplate="{DataTemplate local:UniversityMap}"
-        Route="UniversityMap" />
+        Title="DetailPage"
+        ContentTemplate="{DataTemplate local:DetailPage}"
+        Route="DetailPage" />
+
+    <ShellContent
+        Title="Compass"
+        ContentTemplate="{DataTemplate local:Compass}"
+        Route="Compass" />
 
 
 

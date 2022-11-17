@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UWOsh_InteractiveMap.DetailPage"
+             Title="DetailPage">
+    <VerticalStackLayout>
+        <!-- Plant Name in format "general name (species name)"-->
+        <!-- Should act as <h1> check with team to see about formatting/fonts-->
+        <Label 
+            Text="Sword Fern (Polystichum munitum)"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"
+            Style="{StaticResource HeadingStyle}"/>
+
+        <!-- Should act as <h2> check with team to see about formatting/fonts-->
+        <Label
+            Text="About:"
+            HorizontalOptions="Start"
+            Style="{StaticResource SubHeadingStyle}"/>
+
+        <!-- Should act as <p> check with team to see about formatting/fonts-->
+        <Label
+            Text="The dark green fronds of this fern grow 50 to 180 centimetres (1.6 to 5.9 ft) tall, in a tight clump spreading out radially from a round base. They are single-pinnate, with the pinnae alternating on the stalk. Each pinna is 1 to 15 centimetres (0.39 to 5.91 in) long, with a small upward-pointing lobe (a sword hilt, hence the name) at the base, and the edges are serrated with bristly tips. Individual fronds live for 1.5 to 2.5 years and remain attached to the rhizome after withering. The round sori occupy two rows on either side of the midrib of each pinna and are covered by a centrally-attached, umbrella-like indusium with fringed edges. They produce light yellow spores. In deep shade, fronds spread nearly horizontally but with increasing sun exposure grow more upright."
+            HorizontalOptions="Start"
+            Style="{StaticResource PlainTextStyle}"/>
+
+        <!-- Will display images horizontally, may need to mess with padding/margins-->
+        <HorizontalStackLayout>
+            <Image 
+                Source="Resources/Images/polystichum_munitum_jami_dwyer.jpg"
+                MaximumHeightRequest="400"
+                Margin="10"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

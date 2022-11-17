@@ -70,6 +70,18 @@
               "target": "Package",
               "version": "[6.0.486, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             }
           },
           "imports": [
@@ -100,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
@@ -114,6 +126,18 @@
               "target": "Package",
               "version": "[6.0.486, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -149,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -163,6 +187,18 @@
               "target": "Package",
               "version": "[6.0.486, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -199,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
@@ -219,6 +255,18 @@
               "target": "Package",
               "version": "[10.0.22000.194, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Licensing": {
+              "target": "Package",
+              "version": "[20.3.0.56, )"
+            },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[20.3.56, )"
+            },
+            "Syncfusion.Maui.Gauges": {
+              "target": "Package",
+              "version": "[20.3.56, )"
             }
           },
           "imports": [
@@ -235,11 +283,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.10, 6.0.10]"
+              "version": "[6.0.11, 6.0.11]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.10, 6.0.10]"
+              "version": "[6.0.11, 6.0.11]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -247,7 +295,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.10, 6.0.10]"
+              "version": "[6.0.11, 6.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -267,7 +315,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

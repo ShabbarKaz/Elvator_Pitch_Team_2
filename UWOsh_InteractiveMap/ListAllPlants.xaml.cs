@@ -6,4 +6,8 @@ public partial class ListAllPlants : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void OnButtonClicked(object sender, EventArgs e)
+    {
+
+    }
 }
