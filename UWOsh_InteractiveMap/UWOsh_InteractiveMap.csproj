@@ -49,6 +49,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\addplant.svg" />
+	  <None Remove="Resources\Images\compassIcon.svg" />
+	  <None Remove="Resources\Images\detailpage.svg" />
+	  <None Remove="Resources\Images\feedback.svg" />
+	  <None Remove="Resources\Images\mapIcon.svg" />
+	  <None Remove="Resources\Images\plantslist.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <COMReference Include="{d37e2a3e-8545-3a39-9f4f-31827c9124ab}">
 	    <WrapperTool>tlbimp</WrapperTool>
 	    <VersionMinor>4</VersionMinor>
@@ -64,13 +73,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Compass.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="DetailPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ListAllPlants.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Map.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NavBar.xaml">
