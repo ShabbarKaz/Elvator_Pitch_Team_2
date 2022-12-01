@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
+   <!-- Author: Benjamin Wastart -->
+    <!-- Reviewer:  -->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UWOsh_InteractiveMap.Compass"
@@ -30,7 +32,11 @@
                 </gauge:RadialAxis.MinorTickStyle>
                 <gauge:RadialAxis.Pointers>
                     <gauge:ShapePointer Value="90"
-                                        ShapeType="Triangle" />
+                                        ShapeType="Triangle" 
+                                        ShapeHeight="50"
+                                        ShapeWidth="50"
+                                        Stroke="Black"
+                                        Fill="Blue"/>
                     <gauge:NeedlePointer Value="310"
                                          NeedleLengthUnit="Factor"
                                          NeedleLength="0.9"
