@@ -1,5 +1,8 @@
 namespace UWOsh_InteractiveMap;
-
+/*
+Author: Benjamin Wastart
+Reviewer: 
+*/
 public partial class Compass : ContentPage
 {
 	public Compass()
