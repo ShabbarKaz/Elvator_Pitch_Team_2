@@ -37,7 +37,8 @@
                                         ShapeHeight="40"
                                         ShapeWidth="40"
                                         Stroke="Black"
-                                        Fill="Blue"/>
+                                        Fill="Blue"
+                                        Offset="-18"/> <!-- Random offset-->
                     <gauge:NeedlePointer Value="310"
                                          NeedleLengthUnit="Factor"
                                          NeedleLength="0.9"
