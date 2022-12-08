@@ -23,8 +23,14 @@ public partial class Compass : ContentPage
 	A = arccos((b*b + c*c - a*a) / (2bc)) opposite angle of side a
 	B = arccos((a*a + c*c - b*b) / (2ac)) opposite angle of side b
 	Location self = new Location(42.358056, -71.063611);
-	Location plant = new Location(37.783333, -122.416667);
+	Location plant = new Location(37.783333, -122.416667); y, x
 
 	double clength = Location.CalculateDistance(self, plant, DistanceUnits.Kilometers);
+	north = 81.3 N 110.8 W
+	Math.Acos() is the cos-1 function in .NET
+	 c = Location.CalculateDistance(UserLocation , north)
+	 b = Location.CalculateDistance(110.8 UserLocation.N   , north)
+	 a = Location.CalculateDistance(UserLocation ,  110.8 UserLocation.n)
+	
 	 */
 }
