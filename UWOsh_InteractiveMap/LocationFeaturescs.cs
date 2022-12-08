@@ -1,9 +1,13 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+Author: 
+Reviewer: Benjamin Wastart
+*/
 namespace UWOsh_InteractiveMap
 {
      class LocationFeaturescs
@@ -11,6 +15,7 @@ namespace UWOsh_InteractiveMap
 
         IGeolocation geolocation;
         IGeocoding geocoding;
+        public Location myLocation = new Location();
 
         // gets last known cache location;
         public async Task<string> GetCachedLocation()
@@ -61,7 +66,12 @@ namespace UWOsh_InteractiveMap
                 Location location = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
                 if (location != null)
-                    Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                {
+                    //Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                    myLocation.Latitude = location.Latitude;
+                    myLocation.Longitude = location.Longitude;
+                }
+                    
             }
             // Catch one of the following exceptions:
             //   FeatureNotSupportedException
