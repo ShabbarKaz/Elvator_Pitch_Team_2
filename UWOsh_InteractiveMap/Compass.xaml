@@ -32,13 +32,13 @@
                                            Length="0.12" />
                 </gauge:RadialAxis.MinorTickStyle>
                 <gauge:RadialAxis.Pointers>
-                    <gauge:ShapePointer Value="90"
+                    <!--<gauge:ShapePointer Value="90"
                                         ShapeType="Triangle" 
                                         ShapeHeight="40"
                                         ShapeWidth="40"
                                         Stroke="Black"
                                         Fill="Blue"
-                                        Offset="18"/> <!-- Random offset-->
+                                        Offset="18"/> --><!--offset from outside circle-->
                     <gauge:NeedlePointer Value="310"
                                          NeedleLengthUnit="Factor"
                                          NeedleLength="0.9"
