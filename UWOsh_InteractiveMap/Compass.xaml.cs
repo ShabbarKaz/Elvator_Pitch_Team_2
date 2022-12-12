@@ -13,47 +13,55 @@ Reviewer:
 */
 public partial class Compass : ContentPage
 {
-    private Location NORTH = new Location(81.3, 110.8);
+    private Location NORTH = new Location(81.3, 110.8); //Magnetic North
     private ShapePointer pointer = new ShapePointer();
     private RadialAxis radialAxis = new RadialAxis();
-	private Location myLocation;
-	private LocationFeaturescs featurescs;
-	private Location pointb;
+	private Location myLocation = new Location();
+	private LocationFeaturescs featurescs = new LocationFeaturescs();
+	private Location pointb; //The third point in the triangle
+
     public Compass()
-	{
-		InitializeComponent();
-		//compassGauge
-		//Syncfusion.Maui.Gauges.ShapePointer
-		myLocation = featurescs.myLocation;
-        compassGauge.Axes.Add(radialAxis);
-
-        pointer.Value = 60;
-		double sidec = Location.CalculateDistance(myLocation, NORTH, DistanceUnits.Miles);
-        pointb = new Location(myLocation.Latitude, NORTH.Longitude);
-
-        double sideb = Location.CalculateDistance(pointb, NORTH, DistanceUnits.Miles);
-
-		double sidea = Location.CalculateDistance(myLocation, pointb, DistanceUnits.Miles);
-
-        pointer.Value = (320 + (Math.Acos(((sidea * sidea + sidec * sidec - sideb * sideb) / (2* sidea * sidec))))* 180 / Math.PI)%360;
-
-        pointer.ShapeHeight = 40;
-		pointer.ShapeWidth = 40;
-		pointer.Stroke = Color.Parse("Black");
-		pointer.Fill = Color.Parse("Blue");
-		pointer.Offset = 18;
-        radialAxis.Pointers.Add(pointer);
+{
+	InitializeComponent();
+        SetCompass();
+        SetPointer();
+        SetGuide(NORTH);
+		
     }
 
     public Compass(Location plant)
     {
         InitializeComponent();
-        //compassGauge
-        //Syncfusion.Maui.Gauges.ShapePointer
+        SetCompass();
+        SetPointer();
+        SetGuide(plant);
+    }
+
+		public void SetGuide()
+	{
+        SetGuide(NORTH);
+        //myLocation = featurescs.myLocation;
+        //compassGauge.Axes.Add(radialAxis);
+
+
+        //double sidec = Location.CalculateDistance(myLocation, NORTH, DistanceUnits.Miles);
+        //pointb = new Location(myLocation.Latitude, NORTH.Longitude);
+
+        //double sideb = Location.CalculateDistance(pointb, NORTH, DistanceUnits.Miles);
+
+        //double sidea = Location.CalculateDistance(myLocation, pointb, DistanceUnits.Miles);
+
+        //pointer.Value = (320 + (Math.Acos(((sidea * sidea + sidec * sidec - sideb * sideb) / (2 * sidea * sidec)))) * 180 / Math.PI) % 360;
+
+        //radialAxis.Pointers.Add(pointer);
+    }
+
+        public void SetGuide(Location plant)
+	{
         myLocation = featurescs.myLocation;
         compassGauge.Axes.Add(radialAxis);
 
-        pointer.Value = 60;
+
         double sidec = Location.CalculateDistance(myLocation, plant, DistanceUnits.Miles);
         pointb = new Location(myLocation.Latitude, plant.Longitude);
 
@@ -62,14 +70,37 @@ public partial class Compass : ContentPage
         double sidea = Location.CalculateDistance(myLocation, pointb, DistanceUnits.Miles);
 
         pointer.Value = (320 + (Math.Acos(((sidea * sidea + sidec * sidec - sideb * sideb) / (2 * sidea * sidec)))) * 180 / Math.PI) % 360;
+                
+        radialAxis.Pointers.Add(pointer);
+    }
 
+    private void SetCompass()
+    {
+        radialAxis.Pointers.Clear();
+        radialAxis.ShowAxisLine= false;
+        radialAxis.TickPosition = GaugeElementPosition.Outside;
+        radialAxis.LabelPosition = GaugeLabelsPosition.Outside;
+        radialAxis.StartAngle= 320;
+        radialAxis.EndAngle = 320;
+        radialAxis.RadiusFactor = 0.6;
+        radialAxis.MinorTicksPerInterval = 10;
+        radialAxis.Minimum = 0;
+        radialAxis.Maximum = 360;
+        radialAxis.ShowLastLabel = false;
+        radialAxis.Interval = 30;
+        radialAxis.OffsetUnit = SizeUnit.Factor;
+    }
+
+    private void SetPointer()
+    {
         pointer.ShapeHeight = 40;
         pointer.ShapeWidth = 40;
+        pointer.ShapeType = ShapeType.Triangle;
         pointer.Stroke = Color.Parse("Black");
         pointer.Fill = Color.Parse("Blue");
         pointer.Offset = 18;
-        radialAxis.Pointers.Add(pointer);
     }
+}
 
     /*<!--<gauge:ShapePointer Value="90"
 		ShapeType="Triangle" 
@@ -105,4 +136,4 @@ public partial class Compass : ContentPage
 	 a = Location.CalculateDistance(UserLocation ,  UserLocation.n 110.8)
 	
 	 */
-}
+
