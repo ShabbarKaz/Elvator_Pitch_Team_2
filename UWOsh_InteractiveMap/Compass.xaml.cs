@@ -4,6 +4,7 @@ using Microsoft.Maui.Graphics;
 using Syncfusion.Maui.Gauges;
 //using static Android.Views.WindowInsets;
 //using static Android.Provider.ContactsContract.CommonDataKinds;
+using System.Timers;
 using Location = Microsoft.Maui.Devices.Sensors.Location;
 
 namespace UWOsh_InteractiveMap;
@@ -19,41 +20,39 @@ public partial class Compass : ContentPage
 	private Location myLocation = new Location();
 	private LocationFeaturescs featurescs = new LocationFeaturescs();
 	private Location pointb; //The third point in the triangle
+    private System.Timers.Timer aTimer;
+    private Location location;
 
     public Compass()
 {
-	InitializeComponent();
+	    InitializeComponent();
+
         SetCompass();
         SetPointer();
+        location = NORTH;
         SetGuide(NORTH);
-		
+        SetTimer();
+        aTimer.Stop();
+        aTimer.Dispose();
+
     }
 
     public Compass(Location plant)
     {
         InitializeComponent();
+        location = plant;
         SetCompass();
         SetPointer();
         SetGuide(plant);
+        SetTimer();
+        aTimer.Stop();
+        aTimer.Dispose();
     }
 
 		public void SetGuide()
 	{
         SetGuide(NORTH);
-        //myLocation = featurescs.myLocation;
-        //compassGauge.Axes.Add(radialAxis);
 
-
-        //double sidec = Location.CalculateDistance(myLocation, NORTH, DistanceUnits.Miles);
-        //pointb = new Location(myLocation.Latitude, NORTH.Longitude);
-
-        //double sideb = Location.CalculateDistance(pointb, NORTH, DistanceUnits.Miles);
-
-        //double sidea = Location.CalculateDistance(myLocation, pointb, DistanceUnits.Miles);
-
-        //pointer.Value = (320 + (Math.Acos(((sidea * sidea + sidec * sidec - sideb * sideb) / (2 * sidea * sidec)))) * 180 / Math.PI) % 360;
-
-        //radialAxis.Pointers.Add(pointer);
     }
 
         public void SetGuide(Location plant)
@@ -87,7 +86,7 @@ public partial class Compass : ContentPage
         radialAxis.Minimum = 0;
         radialAxis.Maximum = 360;
         radialAxis.ShowLastLabel = false;
-        radialAxis.Interval = 30;
+        radialAxis.Interval = 0;
         radialAxis.OffsetUnit = SizeUnit.Factor;
     }
 
@@ -99,6 +98,21 @@ public partial class Compass : ContentPage
         pointer.Stroke = Color.Parse("Black");
         pointer.Fill = Color.Parse("Blue");
         pointer.Offset = 18;
+    }
+
+    private void SetTimer()
+    {
+        // Create a timer with a two second interval.
+        aTimer = new System.Timers.Timer(2000);
+        // Hook up the Elapsed event for the timer. 
+        aTimer.Elapsed += OnTimedEvent;
+        aTimer.AutoReset = true;
+        aTimer.Enabled = true;
+    }
+
+    private void OnTimedEvent(Object source, ElapsedEventArgs e)
+    {
+        SetGuide(location);
     }
 }
 
